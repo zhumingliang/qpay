@@ -19,7 +19,7 @@ class Order extends BaseController
      * @api {GET} /api/v1/order/info  2-获取商品信息
      * @apiGroup  PC
      * @apiVersion 1.0.1
-     * @apiDescription
+     * @apiDescription 获取商品信息
      * @apiExample {get}  请求样例:
      * http://qpay.mengant.cn/api/v1/order/info
      * @apiSuccessExample {json} 返回样例:

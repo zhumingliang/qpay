@@ -18,7 +18,7 @@ class Pay extends BaseController
      * @api {GET} /api/v1/pay/qcode  1-获取支付二维码
      * @apiGroup  PC
      * @apiVersion 1.0.1
-     * @apiDescription
+     * @apiDescription  获取支付二维码
      * @apiExample {get}  请求样例:
      * http://qpay.mengant.cn/api/v1/pay/qcode?type=800201
      * @apiParam (请求参数说明) {String} type 订单类别：微信扫码:800201；支付宝扫码:800101

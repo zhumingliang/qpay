@@ -16,11 +16,11 @@ class Pay extends BaseController
 {
     /**
      * @api {GET} /api/v1/pay/qcode  1-获取支付二维码
-     * @apiGroup  MINI
+     * @apiGroup  PC
      * @apiVersion 1.0.1
      * @apiDescription
      * @apiExample {get}  请求样例:
-     * http://mengant.cn/api/v1/pay/qcode?type=800201
+     * http://qpay.mengant.cn/api/v1/pay/qcode?type=800201
      * @apiParam (请求参数说明) {String} type 订单类别：微信扫码:800201；支付宝扫码:800101
      * @apiSuccessExample {json} 返回样例:
      * {"qrcode":"weixin:\/\/wxpay\/bizpayurl?pr=aHI6KOn"}

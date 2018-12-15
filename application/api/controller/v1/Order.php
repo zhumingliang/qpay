@@ -17,11 +17,11 @@ class Order extends BaseController
 
     /**
      * @api {GET} /api/v1/order/info  2-获取商品信息
-     * @apiGroup  MINI
+     * @apiGroup  PC
      * @apiVersion 1.0.1
      * @apiDescription
      * @apiExample {get}  请求样例:
-     * http://mengant.cn/api/v1/order/info
+     * http://qpay.mengant.cn/api/v1/order/info
      * @apiSuccessExample {json} 返回样例:
      * {"txamt":1,"txcurrcd":"HKD","goods_name":"测试商品"}
      * @apiSuccess (返回参数说明) {int} txamt 金额

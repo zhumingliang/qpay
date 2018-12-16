@@ -14,7 +14,7 @@ class OrderService
     public function getOrderInfo()
     {
         $info = [
-            'txamt' => 100,
+            'txamt' => 10,
             'txcurrcd' => 'HKD',
             'goods_name' => '测试商品',
             //'pay_tag'=>'ALIPAYHK'

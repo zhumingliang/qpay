@@ -33,7 +33,7 @@ class PayService
         $qpayParam->setOuTradeNo(time());// 外部订单号，开发者平台订单号，同子商户（mchid）下，每次成功调用支付（含退款）接口，该参数值均不能重复使用,保证单号唯一，长度不超过128字符
         $qpayParam->setTxdtm(date('Y-m-d H:i:s'));// 请求交易时间格式为：格式为：YYYY-MM-DD HH:MM:SS
         $qpayParam->setGoodsName($info['goods_name']);//商品名称或标示，建议不超过20字，不含英文逗号等特殊字符
-       // $qpayParam->setPayTag($info['pay_tag']);//商品名称或标示，建议不超过20字，不含英文逗号等特殊字符
+        // $qpayParam->setPayTag($info['pay_tag']);//商品名称或标示，建议不超过20字，不含英文逗号等特殊字符
         $res = QPayUnifiedOrder::unifiedOrder($qpayParam);
         $data = $qpayParam->getValues();
         $data['q_res'] = json_encode($res);
@@ -42,13 +42,30 @@ class PayService
             throw  new QpayException();
         }
         return [
-            'qrcode' => $res->qrcode
+            'qrcode' => $this->qrcode($res->qrcode)
         ];
 
 
     }
 
-    private function saveOrder($data)
+    // 二维码
+    public function qrcode($qrData)
+    {
+        $savePath = dirname($_SERVER['SCRIPT_FILENAME']) . '/static/qrcode/';
+
+        // $qrData = 'http://www.cnblogs.com/nickbai/';
+        $qrLevel = 'H';
+        $qrSize = '8';
+        $savePrefix = 'NickBai';
+        $filename = createQRcode($savePath, $qrData, $qrLevel, $qrSize, $savePrefix);
+
+        return config('setting.img_prefix').'static/qrcode/' . $filename;
+
+
+    }
+
+    private
+    function saveOrder($data)
     {
         OrderT::create($data);
     }

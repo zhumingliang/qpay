@@ -145,6 +145,22 @@ class QpayDataBase
         return $this->values['mchid'];
     }
 
+    /**
+     * 设置 子商户号，标识子商户身份
+     * @param $value
+     */
+    public function setPayTag($value)
+    {
+        $this->values['pay_tag'] = $value;
+    }
+
+    /**
+     * @return string 值
+     **/
+    public function getPayTag()
+    {
+        return $this->values['pay_tag'];
+    }
 
     /**
      * 设置签名，详见签名生成算法

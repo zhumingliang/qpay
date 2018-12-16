@@ -11,6 +11,7 @@ namespace app\api\controller\v1;
 
 use app\api\controller\BaseController;
 use app\api\service\PayService;
+use wxpay\PayNotifyCallBack;
 
 class Pay extends BaseController
 {
@@ -36,9 +37,33 @@ class Pay extends BaseController
         return json($res);
 
     }
+    public function receiveNotify()
+    {
+        $notify = new PayNotifyCallBack();
+        $notify->handle(true);
+        if ($notify->getReturnCode() == 'SUCCESS') {
+            $attach = $notify->getAttach();
+            $attach_arr = explode("#", $attach);
+            $order_id = $attach_arr[0];
+            $type = $attach_arr[1];
+            $pay = new PayService($order_id, $type, '');
+            $res = $pay->receiveNotify($notify);
+            if ($res) {
+                return '<xml>
+              <return_code><![CDATA[SUCCESS]]></return_code>
+              <return_msg><![CDATA[OK]]></return_msg>
+          </xml>';
+            }
+
+        }
+
+
+    }
+
 
     public function wxPay()
     {
+
 
     }
 

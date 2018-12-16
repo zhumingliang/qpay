@@ -26,7 +26,6 @@ class PayService
     public function qCode($type)
     {
         $info = (new OrderService())->getOrderInfo();
-        print_r($info);
         $qpayParam = new QpayDataBase();
         $qpayParam->setTxamt($info['txamt']);//订单支付金额，单位分；
         $qpayParam->setTxcurrcd($info['txcurrcd']);//币种    港币：HKD ；人民币：CNY；日元：JPY；美元：USD；迪拉姆：AED；泰铢：THB

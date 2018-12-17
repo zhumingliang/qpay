@@ -28,7 +28,8 @@ class PayService
         $info = (new OrderService())->getOrderInfo();
         $qpayParam = new QpayDataBase();
         $qpayParam->setTxamt($info['txamt']);//订单支付金额，单位分；
-        $qpayParam->setTxcurrcd($info['txcurrcd']);//币种    港币：HKD ；人民币：CNY；日元：JPY；美元：USD；迪拉姆：AED；泰铢：THB
+       // $qpayParam->setTxcurrcd($info['txcurrcd']);//币种    港币：HKD ；人民币：CNY；日元：JPY；美元：USD；迪拉姆：AED；泰铢：THB
+        $qpayParam->setTxcurrcd('CNY');//币种    港币：HKD ；人民币：CNY；日元：JPY；美元：USD；迪拉姆：AED；泰铢：THB
         $qpayParam->setPayType($type);// 微信扫码:800201；支付宝扫码:800101
         $qpayParam->setOuTradeNo(time());// 外部订单号，开发者平台订单号，同子商户（mchid）下，每次成功调用支付（含退款）接口，该参数值均不能重复使用,保证单号唯一，长度不超过128字符
         $qpayParam->setTxdtm(date('Y-m-d H:i:s'));// 请求交易时间格式为：格式为：YYYY-MM-DD HH:MM:SS

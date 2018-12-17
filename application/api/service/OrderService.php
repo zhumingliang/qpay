@@ -15,7 +15,7 @@ class OrderService
     {
         $info = [
             'txamt' => 10/100,
-            'txcurrcd' => 'CNY',
+            'txcurrcd' => 'rmb',
             'goods_name' => '测试商品',
             //'pay_tag'=>'ALIPAYHK'
         ];

@@ -30,9 +30,9 @@ class Order extends BaseController
      *
      * @return \think\response\Json
      */
-    public function getInfo()
+    public function getInfo($id)
     {
-        $info = (new OrderService())->getOrderInfo();
+        $info = (new OrderService())->getOrderInfo($id);
         return json($info);
 
     }

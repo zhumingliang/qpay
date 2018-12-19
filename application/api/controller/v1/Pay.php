@@ -31,9 +31,9 @@ class Pay extends BaseController
      * @return \think\response\Json
      * @throws \app\lib\exception\QpayException
      */
-    public function payQCode($type = 800201)
+    public function payQCode($type = 800201,$id)
     {
-        $res = (new PayService())->qCode($type);
+        $res = (new PayService())->qCode($type,$id);
         return json($res);
 
     }

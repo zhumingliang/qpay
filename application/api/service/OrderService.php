@@ -9,17 +9,23 @@
 namespace app\api\service;
 
 
+use app\api\model\GoodsT;
+
 class OrderService
 {
-    public function getOrderInfo()
+    public function getOrderInfo($id)
     {
-        $info = [
-            'txamt' => 10/100,
+
+
+        $info = GoodsT::where('id', $id)->find();
+        return $info;
+
+       /* $info = [
+            'txamt' => 10 / 100,
             'txcurrcd' => 'rmb',
             'goods_name' => '测试商品',
-            //'pay_tag'=>'ALIPAYHK'
-        ];
-        return $info;
+            'pay_tag' => 'alipaycn'
+        ];*/
     }
 
 }

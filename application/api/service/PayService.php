@@ -27,7 +27,7 @@ class PayService
     {
         $info = (new OrderService())->getOrderInfo($id);
         $qpayParam = new QpayDataBase();
-        if ($id){
+        if ($id==7){
             $qpayParam->setTxamt(200);//订单支付金额，单位分；
             $qpayParam->setTxcurrcd('HKD');//币种    港币：HKD ；人民币：CNY；日元：JPY；美元：USD；迪拉姆：AED；泰铢：THB
             $qpayParam->setPayType(801501);// 微信扫码:800201；支付宝扫码:800101

@@ -44,11 +44,10 @@ class PayService
             $qpayParam->setTxdtm(date('Y-m-d H:i:s'));// 请求交易时间格式为：格式为：YYYY-MM-DD HH:MM:SS
             $qpayParam->setGoodsName($info['goods_name']);//商品名称或标示，建议不超过20字，不含英文逗号等特殊字符
             //$qpayParam->setPayTag('ALIPAYCN');//商品名称或标示，建议不超过20字，不含英文逗号等特殊字符
-            $res = QPayUnifiedOrder::unifiedOrder($qpayParam);
         }
 
        // print_r($res);
-
+        $res = QPayUnifiedOrder::unifiedOrder($qpayParam);
         $data = $qpayParam->getValues();
         $data['q_res'] = json_encode($res);
         $this->saveOrder($data);

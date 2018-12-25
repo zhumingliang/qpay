@@ -18,6 +18,7 @@ Route::get('api/:version/index', 'api/:version.Index/index');
 
 Route::get('api/:version/pay/qcode', 'api/:version.Pay/payQCode');
 Route::get('api/:version/order/info', 'api/:version.Order/getInfo');
+Route::get('api/:version/rate/update', 'api/:version.Rate/update');
 
 return [
 

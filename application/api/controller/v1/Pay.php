@@ -90,9 +90,9 @@ class Pay extends BaseController
      * @return \think\response\Json
      * @throws \app\lib\exception\QpayException
      */
-    public function payWithHKD($cny, $rate, $hkd, $name)
+    public function payWithHKD($cny, $rate, $hkd, $name, $type)
     {
-        $qrcode = (new PayService())->payWithHKD($cny, $rate, $hkd, $name);
+        $qrcode = (new PayService())->payWithHKD($cny, $rate, $hkd, $name, $type);
         return json([
             'qrcode' => $qrcode
         ]);

@@ -9,6 +9,7 @@
 namespace app\api\service;
 
 
+use app\api\model\HkdOrderT;
 use app\api\model\OrderT;
 use app\lib\exception\QpayException;
 use qpay\QpayDataBase;
@@ -98,10 +99,10 @@ class PayService
      * @return string
      * @throws QpayException
      */
-    public function payWithHKD($cny, $rate, $hkd, $name,$type)
+    public function payWithHKD($cny, $rate, $hkd, $name, $type)
     {
-        $this->saveHkdOrder($cny, $rate, $hkd, $name,$type);
-        return $this->getHKDCode($hkd, $name,$type);
+        $this->saveHkdOrder($cny, $rate, $hkd, $name, $type);
+        return $this->getHKDCode($hkd, $name, $type);
 
 
     }
@@ -147,7 +148,7 @@ class PayService
         return $this->qrcode($qrcode);;
     }
 
-    private function saveHkdOrder($cny, $rate, $hkd, $name)
+    private function saveHkdOrder($cny, $rate, $hkd, $name, $type)
     {
         //新增记录
         $data = [
@@ -155,8 +156,9 @@ class PayService
             'rate' => $rate,
             'hkd' => $hkd,
             'name' => $name,
+            'type' => $type,
         ];
-        $res = OrderT::create($data);
+        $res = HkdOrderT::create($data);
         if (!$res) {
             throw  new QpayException();
         }

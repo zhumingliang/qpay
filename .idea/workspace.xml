@@ -64,7 +64,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="2429" />
+          <entry key="PHP" value="2492" />
           <entry key="PLAIN_TEXT" value="29" />
         </counts>
       </usages-collector>
@@ -84,8 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/api/controller/v1/Pay.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="725">
-              <caret line="94" column="43" lean-forward="true" selection-start-line="94" selection-start-column="43" selection-end-line="94" selection-end-column="43" />
+            <state relative-caret-position="555">
+              <caret line="96" column="42" selection-start-line="96" selection-start-column="42" selection-end-line="96" selection-end-column="42" />
               <folding>
                 <element signature="e#1005#1665#0#PHP" />
               </folding>
@@ -96,10 +96,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/api/service/PayService.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
-              <caret line="145" column="9" selection-start-line="145" selection-start-column="9" selection-end-line="145" selection-end-column="9" />
+            <state relative-caret-position="572">
+              <caret line="160" column="24" selection-start-line="160" selection-start-column="24" selection-end-line="160" selection-end-column="24" />
               <folding>
-                <element signature="e#125#150#0#PHP" expanded="true" />
+                <element signature="e#125#153#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -419,7 +419,7 @@
       <workItem from="1545700180215" duration="227000" />
       <workItem from="1545753151984" duration="281000" />
       <workItem from="1545759306237" duration="649000" />
-      <workItem from="1546845589576" duration="4299000" />
+      <workItem from="1546845589576" duration="4767000" />
     </task>
     <task id="LOCAL-00001" summary="项目初始化">
       <created>1544870039235</created>
@@ -575,11 +575,25 @@
       <option name="project" value="LOCAL" />
       <updated>1546850552136</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="项目初始化">
+      <created>1546858928158</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1546858928158</updated>
+    </task>
+    <task id="LOCAL-00024" summary="项目初始化">
+      <created>1546859010393</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1546859010393</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46923000" />
+    <option name="totallyTimeSpent" value="47391000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -893,8 +907,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/api/controller/v1/Pay.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="94" column="43" lean-forward="true" selection-start-line="94" selection-start-column="43" selection-end-line="94" selection-end-column="43" />
+        <state relative-caret-position="555">
+          <caret line="96" column="42" selection-start-line="96" selection-start-column="42" selection-end-line="96" selection-end-column="42" />
           <folding>
             <element signature="e#1005#1665#0#PHP" />
           </folding>
@@ -903,10 +917,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/api/service/PayService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="145" column="9" selection-start-line="145" selection-start-column="9" selection-end-line="145" selection-end-column="9" />
+        <state relative-caret-position="572">
+          <caret line="160" column="24" selection-start-line="160" selection-start-column="24" selection-end-line="160" selection-end-column="24" />
           <folding>
-            <element signature="e#125#150#0#PHP" expanded="true" />
+            <element signature="e#125#153#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

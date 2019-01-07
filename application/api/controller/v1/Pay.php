@@ -74,11 +74,12 @@ class Pay extends BaseController
      * @apiVersion 1.0.1
      * @apiDescription  获取港币支付二维码
      * @apiExample {get}  请求样例:
-     * http://qpay.mengant.cn/api/v1/pay/hkd/qcode?cny=888&rate=88&hkd=100&name="商品名称"
+     * http://qpay.mengant.cn/api/v1/pay/hkd/qcode?cny=888&rate=88&hkd=100&name=商品名称&type=1
      * @apiParam (请求参数说明) {String} cny 人民币金额:单位分
      * @apiParam (请求参数说明) {String} rate 港币换个人民币汇率
      * @apiParam (请求参数说明) {String} hkd 港币金额：单位分
      * @apiParam (请求参数说明) {String} name 商品名称
+     * @apiParam (请求参数说明) {int} type 支付类别：1 | 微信；2 | 支付宝
      * @apiSuccessExample {json} 返回样例:
      * {"qrcode":"weixin:\/\/wxpay\/bizpayurl?pr=aHI6KOn"}
      * @apiSuccess (返回参数说明) {String} qrcode 扫码支付跳转连接。你需要生成一张二维码，扫码跳转到这个连接

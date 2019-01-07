@@ -62,9 +62,40 @@ class Pay extends BaseController
     }
 
 
-    public function wxPay()
+    public function payInPublic()
     {
 
+    }
+
+
+    /**
+     * @api {GET} /api/v1/pay/hdk/qcode  2-获取港币支付二维码
+     * @apiGroup  PC
+     * @apiVersion 1.0.1
+     * @apiDescription  获取港币支付二维码
+     * @apiExample {get}  请求样例:
+     * http://qpay.mengant.cn/api/v1/pay/hdk/qcode?cny=88.8&rate=0.88&hkd=100&name="商品名称"
+     * @apiParam (请求参数说明) {String} cny 人民币金额
+     * @apiParam (请求参数说明) {String} rate 港币换个人民币汇率
+     * @apiParam (请求参数说明) {String} hkd 港币金额
+     * @apiParam (请求参数说明) {String} name 商品名称
+     * @apiSuccessExample {json} 返回样例:
+     * {"qrcode":"weixin:\/\/wxpay\/bizpayurl?pr=aHI6KOn"}
+     * @apiSuccess (返回参数说明) {String} qrcode 扫码支付跳转连接。你需要生成一张二维码，扫码跳转到这个连接
+     *
+     * @param $cny
+     * @param $rate
+     * @param $hkd
+     * @param $name
+     * @return \think\response\Json
+     * @throws \app\lib\exception\QpayException
+     */
+    public function payWithHKD($cny, $rate, $hkd, $name)
+    {
+        $qrcode = (new PayService())->payWithHKD($cny, $rate, $hkd, $name);
+        return json([
+            'qrcode' => $qrcode
+        ]);
 
     }
 

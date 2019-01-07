@@ -98,10 +98,10 @@ class PayService
      * @return string
      * @throws QpayException
      */
-    public function payWithHKD($cny, $rate, $hkd, $name)
+    public function payWithHKD($cny, $rate, $hkd, $name,$type)
     {
-        $this->saveHkdOrder($cny, $rate, $hkd, $name);
-        return $this->getHKDCode($hkd, $name);
+        $this->saveHkdOrder($cny, $rate, $hkd, $name,$type);
+        return $this->getHKDCode($hkd, $name,$type);
 
 
     }

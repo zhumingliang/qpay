@@ -87,6 +87,7 @@ class Pay extends BaseController
      * @param $rate
      * @param $hkd
      * @param $name
+     * @param $type
      * @return \think\response\Json
      * @throws \app\lib\exception\QpayException
      */

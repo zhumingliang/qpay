@@ -69,15 +69,15 @@ class Pay extends BaseController
 
 
     /**
-     * @api {GET} /api/v1/pay/hdk/qcode  2-获取港币支付二维码
+     * @api {GET} /api/v1/pay/hkd/qcode  2-获取港币支付二维码
      * @apiGroup  PC
      * @apiVersion 1.0.1
      * @apiDescription  获取港币支付二维码
      * @apiExample {get}  请求样例:
-     * http://qpay.mengant.cn/api/v1/pay/hdk/qcode?cny=88.8&rate=0.88&hkd=100&name="商品名称"
-     * @apiParam (请求参数说明) {String} cny 人民币金额
+     * http://qpay.mengant.cn/api/v1/pay/hkd/qcode?cny=888&rate=88&hkd=100&name="商品名称"
+     * @apiParam (请求参数说明) {String} cny 人民币金额:单位分
      * @apiParam (请求参数说明) {String} rate 港币换个人民币汇率
-     * @apiParam (请求参数说明) {String} hkd 港币金额
+     * @apiParam (请求参数说明) {String} hkd 港币金额：单位分
      * @apiParam (请求参数说明) {String} name 商品名称
      * @apiSuccessExample {json} 返回样例:
      * {"qrcode":"weixin:\/\/wxpay\/bizpayurl?pr=aHI6KOn"}

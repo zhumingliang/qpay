@@ -2,9 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb8621aa-a58f-49cc-8995-0e2afffdfd0b" name="Default" comment="项目初始化">
+      <change afterPath="$PROJECT_DIR$/public/dist/code.cb610d37.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/dist/code.cb610d37.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/dist/detail.d79ad8fe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/dist/detail.d79ad8fe.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/dist/input.11e3b182.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/dist/input.11e3b182.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/dist/input.1d482d10.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/dist/input.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/api/controller/v1/Pay.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/api/controller/v1/Pay.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/api/service/PayService.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/api/service/PayService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/dist/code.0ed77065.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/code.0ed77065.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/dist/code.0ed77065.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/code.0ed77065.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/dist/code.d216c0f5.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/code.d216c0f5.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/dist/code.e6d65d90.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/code.e6d65d90.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/dist/code.e6d65d90.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/code.e6d65d90.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/dist/code.fb5f80f2.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/code.fb5f80f2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/dist/code.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/code.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/dist/detail.9d1f701b.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/detail.9d1f701b.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/dist/detail.9d1f701b.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/detail.9d1f701b.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/dist/detail.c2669f03.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/detail.c2669f03.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/dist/detail.c2669f03.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/detail.c2669f03.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/dist/detail.dafb7e68.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/detail.dafb7e68.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/dist/detail.dafb7e68.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/detail.dafb7e68.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/dist/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/dist/detail.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,14 +39,14 @@
     <session id="2025781400">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.0" value="3" />
-          <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -42,7 +62,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="4" />
+          <entry key="CSS" value="5" />
           <entry key="HTML" value="2" />
           <entry key="Image" value="1" />
           <entry key="JSON" value="1" />
@@ -73,19 +93,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/route/route.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/api/controller/v1/Pay.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="96" column="42" selection-start-line="96" selection-start-column="42" selection-end-line="96" selection-end-column="42" />
+            <state relative-caret-position="271">
+              <caret line="71" column="26" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="39" />
               <folding>
                 <element signature="e#1005#1665#0#PHP" />
               </folding>
@@ -94,9 +105,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/dist/code.330620b4.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="28" selection-start-column="28" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/api/service/PayService.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
+            <state relative-caret-position="4185">
               <caret line="160" column="24" selection-start-line="160" selection-start-column="24" selection-end-line="160" selection-end-column="24" />
               <folding>
                 <element signature="e#125#153#0#PHP" expanded="true" />
@@ -117,7 +137,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/api/service/AdminToken.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1929">
+            <state relative-caret-position="189">
               <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
@@ -126,7 +146,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/api/service/Token.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="878">
+            <state relative-caret-position="1701">
               <caret line="69" selection-start-line="69" selection-end-line="69" />
             </state>
           </provider>
@@ -419,7 +439,8 @@
       <workItem from="1545700180215" duration="227000" />
       <workItem from="1545753151984" duration="281000" />
       <workItem from="1545759306237" duration="649000" />
-      <workItem from="1546845589576" duration="4767000" />
+      <workItem from="1546845589576" duration="5142000" />
+      <workItem from="1546910305359" duration="275000" />
     </task>
     <task id="LOCAL-00001" summary="项目初始化">
       <created>1544870039235</created>
@@ -589,17 +610,24 @@
       <option name="project" value="LOCAL" />
       <updated>1546859010393</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="项目初始化">
+      <created>1546859468342</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1546859468342</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47391000" />
+    <option name="totallyTimeSpent" value="48041000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22051597" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22358723" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -631,13 +659,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="项目初始化" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/api/validate/BaseValidate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/api/validate/IDMustBePostiveInt.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -843,9 +864,58 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="621">
           <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/route/route.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/api/service/PayService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4185">
+          <caret line="160" column="24" selection-start-line="160" selection-start-column="24" selection-end-line="160" selection-end-column="24" />
           <folding>
-            <element signature="e#130#168#0#PHP" expanded="true" />
+            <element signature="e#125#153#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/api/service/OrderService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="26" column="34" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/api/service/AdminToken.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/api/service/Token.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1701">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/api/model/HkdOrderT.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/lib/exception/QpayException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -863,65 +933,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/api/model/HkdOrderT.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/api/service/AdminToken.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1929">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/api/service/Token.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="878">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/api/service/OrderService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="26" column="34" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/lib/exception/QpayException.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/route/route.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/api/controller/v1/Pay.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="96" column="42" selection-start-line="96" selection-start-column="42" selection-end-line="96" selection-end-column="42" />
+        <state relative-caret-position="271">
+          <caret line="71" column="26" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="39" />
           <folding>
             <element signature="e#1005#1665#0#PHP" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/api/service/PayService.php">
+    <entry file="file://$PROJECT_DIR$/public/dist/code.330620b4.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="160" column="24" selection-start-line="160" selection-start-column="24" selection-end-line="160" selection-end-column="24" />
-          <folding>
-            <element signature="e#125#153#0#PHP" expanded="true" />
-          </folding>
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
         </state>
       </provider>
     </entry>
